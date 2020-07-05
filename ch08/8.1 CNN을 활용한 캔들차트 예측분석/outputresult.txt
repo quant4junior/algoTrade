@@ -1,0 +1,126 @@
+=======
+50epochs_8batch_cnn
+TN: 125
+FN: 83
+TP: 92
+FP: 116
+TPR: 0.5257142857142857
+FPR: 0.48132780082987553
+accuracy: 0.522
+specitivity: 0.519
+sensitivity : 0.526
+mcc : 0.044
+              precision    recall  f1-score   support
+
+           0       0.60      0.52      0.56       241
+           1       0.44      0.53      0.48       175
+
+    accuracy                           0.52       416
+   macro avg       0.52      0.52      0.52       416
+weighted avg       0.53      0.52      0.52       416
+=======
+=======
+50epochs_8batch_cnn
+TN: 185
+FN: 136
+TP: 39
+FP: 56
+TPR: 0.22285714285714286
+FPR: 0.23236514522821577
+accuracy: 0.538
+specitivity: 0.768
+sensitivity : 0.223
+mcc : -0.011
+              precision    recall  f1-score   support
+
+           0       0.58      0.77      0.66       241
+           1       0.41      0.22      0.29       175
+
+    accuracy                           0.54       416
+   macro avg       0.49      0.50      0.47       416
+weighted avg       0.51      0.54      0.50       416
+=======
+=======
+50epochs_8batch_cnn
+TN: 153
+FN: 107
+TP: 68
+FP: 88
+TPR: 0.38857142857142857
+FPR: 0.3651452282157676
+accuracy: 0.531
+specitivity: 0.635
+sensitivity : 0.389
+mcc : 0.024
+              precision    recall  f1-score   support
+
+           0       0.59      0.63      0.61       241
+           1       0.44      0.39      0.41       175
+
+    accuracy                           0.53       416
+   macro avg       0.51      0.51      0.51       416
+weighted avg       0.52      0.53      0.53       416
+=======
+=======
+50epochs_8batch_cnn
+TN: 127
+FN: 87
+TP: 88
+FP: 114
+TPR: 0.5028571428571429
+FPR: 0.4730290456431535
+accuracy: 0.517
+specitivity: 0.527
+sensitivity : 0.503
+mcc : 0.029
+              precision    recall  f1-score   support
+
+           0       0.59      0.53      0.56       241
+           1       0.44      0.50      0.47       175
+
+    accuracy                           0.52       416
+   macro avg       0.51      0.51      0.51       416
+weighted avg       0.53      0.52      0.52       416
+=======
+=======
+50epochs_8batch_cnn
+TN: 165
+FN: 112
+TP: 63
+FP: 76
+TPR: 0.36
+FPR: 0.3153526970954357
+accuracy: 0.548
+specitivity: 0.685
+sensitivity : 0.36
+mcc : 0.047
+              precision    recall  f1-score   support
+
+           0       0.60      0.68      0.64       241
+           1       0.45      0.36      0.40       175
+
+    accuracy                           0.55       416
+   macro avg       0.52      0.52      0.52       416
+weighted avg       0.54      0.55      0.54       416
+=======
+=======
+50epochs_8batch_cnn
+TN: 178
+FN: 118
+TP: 57
+FP: 63
+TPR: 0.32571428571428573
+FPR: 0.26141078838174275
+accuracy: 0.565
+specitivity: 0.739
+sensitivity : 0.326
+mcc : 0.07
+              precision    recall  f1-score   support
+
+           0       0.60      0.74      0.66       241
+           1       0.47      0.33      0.39       175
+
+    accuracy                           0.56       416
+   macro avg       0.54      0.53      0.52       416
+weighted avg       0.55      0.56      0.55       416
+=======

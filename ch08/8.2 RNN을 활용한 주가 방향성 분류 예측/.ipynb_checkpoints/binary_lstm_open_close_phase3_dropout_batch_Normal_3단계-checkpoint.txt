@@ -1,0 +1,21 @@
+=======
+20epochs_10batch
+TN: 21
+FN: 18
+TP: 9
+FP: 10
+TPR: 0.3333333333333333
+FPR: 0.3225806451612903
+accuracy: 0.517
+specitivity: 0.677
+sensitivity : 0.333
+mcc : 0.011
+              precision    recall  f1-score   support
+
+           0       0.54      0.68      0.60        31
+           1       0.47      0.33      0.39        27
+
+    accuracy                           0.52        58
+   macro avg       0.51      0.51      0.50        58
+weighted avg       0.51      0.52      0.50        58
+=======
