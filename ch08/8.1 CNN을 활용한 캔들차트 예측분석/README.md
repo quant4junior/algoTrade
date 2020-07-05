@@ -1,5 +1,3 @@
-# Going Deeper with Convolutional Neural Network for Stock Market Prediction
-Repository for Going Deeper with Convolutional Neural Network for Stock Market Prediction
 
 ## Introduction
 Predict the stock market price will go up or not in the near future.
@@ -12,23 +10,6 @@ Predict the stock market price will go up or not in the near future.
 ## Methodology
 - Using candlestick chart for input model
 - DeepCNN
-- ResNet 50
-- VGG16
-- VGG19
-- Randomforest
-- KNN
-
-## Usage
-### Prepare Environment
-Recommended using virtual environment
-```
-python3 -m venv .env
-```
-
-Running on Python3.5
-```
-pip install -U -r requirements.txt
-```
 
 ### Prepare Dataset
 - Convert OHLCV stock market data to Candlestickchart
@@ -71,12 +52,6 @@ python myDeepCNN.py -i dataset/dataset_2880TW_20_50 -e 50 -d 50 -b 8 -o outputre
 - MCC
 - F1
 
-## Citation
-```
-@misc{1903.12258,
-Author = {Rosdyana Mangir Irawan Kusuma and Trang-Thi Ho and Wei-Chun Kao and Yu-Yen Ou and Kai-Lung Hua},
-Title = {Using Deep Learning Neural Networks and Candlestick Chart Representation to Predict Stock Market},
-Year = {2019},
-Eprint = {arXiv:1903.12258},
-}
-```
+## Reference
+ * [Going Deeper with Convolutional Neural Network for Stock Market Prediction](https://github.com/rosdyana/Going-Deeper-with-Convolutional-Neural-Network-for-Stock-Market-Prediction)
+
