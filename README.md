@@ -1,6 +1,6 @@
 # Algorithmic Trading for Quantitative Strategies
 
-![Screenshot](bg_image.png)
+
 
 -----------------
 
