@@ -62,5 +62,5 @@
 
  - [Google](wwww.google.com)
  - [Stackoverflow](www.stackoverflow.com)
- - 여기도 ref 하면 좋을듯
- https://github.com/marcotav/anomaly-detection-resources#31-multivariate-data
+ - [Anomaly Detection Learning Resources](https://github.com/marcotav/anomaly-detection-resources#31-multivariate-data)
+ 
