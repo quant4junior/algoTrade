@@ -88,12 +88,3 @@ try:
         print('{GREEN}Labelling Testing Data Done\n{END}'.format(**formatters))
 except Exception as identifier:
     print(identifier)
-
-
-# print('{RED}Last step please resize images with your own.{END}'.format(**formatters))
-# find . -maxdepth 4 -iname "*.png" | xargs -L1 -I{} convert -flatten +matte -adaptive-resize 200x200! "{}" "{}"
-# find . -iname "*.png" | xargs -L1 -I{} convert -flatten +matte -adaptive-resize 200x200! "{}" "{}"
-
-# find . -name "*.png" -exec convert "{}" -alpha off "{}" \;
-# find . -name "*.png" -exec convert "{}" -adaptive-resize 20x20! "{}" \;
-# os.system('spd-say --voice-type female3 "your program has finished"')

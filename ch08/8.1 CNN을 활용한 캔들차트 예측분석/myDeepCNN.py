@@ -46,8 +46,7 @@ def build_dataset(data_directory, img_width):
 
 
 def build_model(SHAPE, nb_classes, bn_axis, seed=None):
-    # We can't use ResNet50 directly, as it might cause a negative dimension
-    # error.
+
     if seed:
         np.random.seed(seed)
 

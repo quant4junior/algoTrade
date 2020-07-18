@@ -69,32 +69,5 @@ for root, dirs, files in os.walk("{}/{}".format(pathdir, origindir)):
                 copyfile(origin, destination)
                 counttrain += 1
 
-        # if file[0] == '0':
-        #     if 'test' in file:
-        #         origin = "{}/{}".format(root, file)
-        #         destination = "{}/{}/test/0/{}".format(
-        #             pathdir, targetdir, file)
-        #         copyfile(origin, destination)
-        #         counttest += 1
-        #     elif 'train' in file:
-        #         origin = "{}/{}".format(root, file)
-        #         destination = "{}/{}/train/0/{}".format(
-        #             pathdir, targetdir, file)
-        #         copyfile(origin, destination)
-        #         counttrain += 1
-        # elif file[0] == '1':
-        #     if 'test' in file:
-        #         origin = "{}/{}".format(root, file)
-        #         destination = "{}/{}/test/1/{}".format(
-        #             pathdir, targetdir, file)
-        #         copyfile(origin, destination)
-        #         counttest += 1
-        #     elif 'train' in file:
-        #         origin = "{}/{}".format(root, file)
-        #         destination = "{}/{}/train/1/{}".format(
-        #             pathdir, targetdir, file)
-        #         copyfile(origin, destination)
-        #         counttrain += 1
-
 print(counttest)
 print(counttrain)

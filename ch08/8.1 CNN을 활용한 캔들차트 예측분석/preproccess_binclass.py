@@ -57,17 +57,14 @@ def main():
 
 
 def image2dataset(input, label_file):
-    # python preprocess.py -m img2dt -i dataset/5/img -lf FTSE_label_5.txt
+    
     label_dict = {}
     with open(label_file) as f:
         for line in f:
             (key, val) = line.split(',')
-            # print("adding {} with key {}".format(val.rstrip(), key))
             label_dict[key] = val.rstrip()
-    # print(label_dict)
-    # print(list(label_dict.values())[list(label_dict.keys()).index('FTSE-80')])
+    
     path = "{}/{}".format(os.getcwd(), input)
-    # print(path)
 
     for filename in os.listdir(path):
         # print(filename)
@@ -102,12 +99,7 @@ def image2dataset(input, label_file):
             elif label_dict[f] == "0":
                 move("{}/{}".format(path, filename),
                      "{}/classes/0/{}".format(path, filename))
-            # if filename[:1] == "1":
-            #     move("{}/{}".format(path, filename),
-            #          "{}/classes/1/{}".format(path, filename))
-            # elif filename[:1] == "0":
-            #     move("{}/{}".format(path, filename),
-            #          "{}/classes/0/{}".format(path, filename))
+
     print('Done')
 
 
@@ -142,10 +134,6 @@ def createLabel(fname, seq_len):
             else:
                 label = 0
 
-            # if endvalue > starting:
-            #     label = 1
-            # else:
-            #     label = 0
             with open("{}_label_{}.txt".format(filename[1][:-4], seq_len), 'a') as the_file:
                 the_file.write("{}-{},{}".format(filename[1][:-4], i, label))
                 the_file.write("\n")
