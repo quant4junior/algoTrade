@@ -29,33 +29,28 @@
 
 * 파이썬 3.6버전 가상환경 만들기.
 ```sh
-(base)conda create -n py36 python=3.6
+(base) C:\Users\user-name> conda create -n py36 python=3.6
 ```
 * 가상환경 활성화
 ```sh
-(base)activate py36
+(base) C:\Users\user-name> activate py36
 ```
 
 * 패키지 설치하기.
 ```sh
-(py36) pip install -r requirements.txt
+(py36) C:\Users\user-name> pip install -r requirements.txt
 ```
 
 * (TIP) 패키지 내보내기.
 
 ```sh
-(py36) pip freeze > requirements.txt
+(py36) C:\Users\user-name> pip freeze > requirements.txt
 ```
 
 ## 사용하는 딥러닝 버전.
 
  - tensorflow==1.15.0
  - Keras==2.2.4
-
-
-## 궁금한 점
- - []()
-
 
 
 ## Reference
