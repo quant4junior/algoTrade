@@ -31,15 +31,34 @@
 ```sh
 (base) C:\Users\user-name> conda create -n py36 python=3.6
 ```
-* 가상환경 활성화
+* 가상환경 활성화 For Windows
 ```sh
 (base) C:\Users\user-name> activate py36
 ```
 
-* 패키지 설치하기.
+* 가상환경 활성화 For Mac
+```sh
+(base) $ source activate py36
+```
+
+* 패키지 전체 설치하기.
 ```sh
 (py36) C:\Users\user-name> pip install -r requirements.txt
 ```
+
+* 개별 패키지 설치하기.
+```sh
+(py36) C:\Users\user-name> pip install pandas
+```
+
+```sh
+(py36) C:\Users\user-name> conda install pandas
+```
+* 특정 버전 패키지 설치하기.
+```sh
+(py36) C:\Users\user-name> conda install pandas==0.25.2
+```
+
 
 * (TIP) 패키지 내보내기.
 
