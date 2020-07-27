@@ -1,12 +1,12 @@
-# Algorithmic Trading for Quantitative Strategies
+# 퀀트 전략을 위한 인공지능 트레이딩
 
-
+![book](./표지.jpg)
 
 -----------------
 
 ## 누구를 위한 책인가?
 
-**Algorithmic Trading for Quantitative Strategies** 책은 파이썬을 활용해서 금융데이터를 분석하는 방법을 알고싶은 사람들을 위한 책입니다.
+**퀀트 전략을 위한 인공지능 트레이딩** 책은 파이썬을 활용해서 금융데이터를 분석하는 방법을 알고싶은 사람들을 위한 책입니다.
 
 
 
@@ -15,7 +15,7 @@
 ## 주요 내용
 파이썬을 활용한 금융 데이터 분석.
 
- - 전통적 분석
+ - 전통적 분석(기술적 분석 + 재무제표 분석)
 
  - 머신러닝을 이용한 분석
 
@@ -72,9 +72,4 @@
  - Keras==2.2.4
 
 
-## Reference
-
- - [Google](wwww.google.com)
- - [Stackoverflow](www.stackoverflow.com)
- - [Anomaly Detection Learning Resources](https://github.com/marcotav/anomaly-detection-resources#31-multivariate-data)
  
