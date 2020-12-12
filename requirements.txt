@@ -13,7 +13,7 @@ cffi==1.14.0
 chardet==3.0.4
 colorama==0.4.3
 convertdate==2.1.3
-cryptography==2.8
+cryptography==3.2
 cycler==0.10.0
 Cython==0.29.15
 decorator==4.4.2
