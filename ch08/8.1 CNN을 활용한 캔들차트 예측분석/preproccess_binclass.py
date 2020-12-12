@@ -11,7 +11,8 @@ from shutil import copyfile, move
 from pathlib import Path
 
 # https://github.com/matplotlib/mpl_finance
-from mpl_finance import candlestick2_ochl, volume_overlay
+# from mpl_finance import candlestick2_ochl, volume_overlay
+from mplfinance import candlestick2_ochl, volume_overlay
 
 
 def isnan(value):
