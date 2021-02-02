@@ -6,7 +6,7 @@ attrs==19.3.0
 backcall==0.1.0
 backtrader==1.9.74.123
 beautifulsoup4==4.8.2
-bleach==3.1.1
+bleach==3.3.0
 blessed==1.17.2
 certifi==2020.4.5.1
 cffi==1.14.0
