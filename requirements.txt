@@ -37,7 +37,7 @@ ipython==7.13.0
 ipython-genutils==0.2.0
 jdcal==1.4.1
 jedi==0.16.0
-Jinja2==2.11.1
+Jinja2==2.11.3
 jinxed==1.0.0
 joblib==0.14.1
 json5==0.9.0
