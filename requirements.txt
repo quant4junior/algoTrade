@@ -82,7 +82,7 @@ prometheus-client==0.7.1
 prompt-toolkit==3.0.3
 protobuf==3.11.3
 psutil==5.7.0
-py==1.8.1
+py==1.10.0
 pycparser==2.20
 Pygments==2.5.2
 pyOpenSSL==19.1.0
